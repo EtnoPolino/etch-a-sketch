@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Space Mono', sans-serif;
+}
+
+body{
+    width: 100%;
+    font-size: 15px;
+    background-color: teal;
+    padding: 0 2rem 0 2rem;
+}
+
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    margin: 1rem 0 1rem 0;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
+    height: 500px;
+}
+
+/*----------------------LEFT SIDE-------------------------------*/
+main .left{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+input{
+    text-align: center;
+    width: 80px;
+}
+
+main .left .submit{
+    padding: 0.1rem 1rem 0.1rem 1rem;
+    border-radius: 5px;
+    color: white;
+    background-color: lightsalmon;
+    margin-left: 1rem;
+}
+
+
+main .left .clear-grid{
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 5px;
+    color: white;
+    background-color: lightsalmon;
+}
+
+/*----------------------RIGHT SIDE-------------------------------*/
+main .wrapper{
+    display: grid;
+}
+
+
+/*----à ajouter sur javascript----*/
+.box{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+/*-------------------------------*/
